@@ -1,16 +1,37 @@
 # 📊 Sales Data Calculator
 
-## Overview
+## Task 4 - Level 1 - Day 4
 
-Sales Data Calculator is a beginner-friendly Python project that analyzes a collection of sales values and calculates important numerical statistics.
+A beginner-friendly Python project that analyzes a collection of sales values and calculates important sales statistics such as total sales, average sales, highest sale, and lowest sale.
+
+---
+
+## 📌 Project Overview
+
+The Sales Data Calculator uses Python to perform basic numerical data analysis on manually created sales data.
+
+The project demonstrates the use of Python lists and built-in functions such as:
+
+- `sum()`
+- `max()`
+- `min()`
+- `len()`
+
+A Streamlit web interface is also included to provide a simple live visualization of the results.
+
+---
 
 ## 🎯 Objectives
 
+- Analyze a collection of sales values
 - Calculate total sales
 - Calculate average sales
 - Find the highest sale
 - Find the lowest sale
 - Practice basic numerical data analysis using Python
+- Create a simple Streamlit application
+
+---
 
 ## 🛠️ Tools & Technologies
 
@@ -21,20 +42,22 @@ Sales Data Calculator is a beginner-friendly Python project that analyzes a coll
 - GitHub
 - Streamlit
 
-## 📊 Results
+---
 
-| Statistic | Result |
-|---|---:|
-| Number of Sales | 10 |
-| Total Sales | 16,330 |
-| Average Sales | 1,633 |
-| Highest Sale | 2,500 |
-| Lowest Sale | 980 |
+## 📊 Dataset
 
-## 📁 Project Structure
+The project uses manually created sales data:
 
-```text
-sales-data-calculator/
-├── sales_data_calculator.py
-├── Sales_Data_Calculator.ipynb
-└── README.md
+```python
+sales = [
+    1200,
+    1500,
+    980,
+    1750,
+    2200,
+    1450,
+    1900,
+    1250,
+    1600,
+    2500
+]
